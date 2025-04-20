@@ -104,8 +104,8 @@
         {
             "atomType": "Molecule",
             "name": "Top",
-            "x": 0.2770177838577291,
-            "y": 0.3433734939759036,
+            "x": 0.28317373461012313,
+            "y": 0.25903614457831325,
             "uniqueID": 1745161481329,
             "ioValues": [
                 {
@@ -669,14 +669,36 @@
                 {
                     "atomType": "Import",
                     "name": "Import",
-                    "x": 0.3402625820568928,
-                    "y": 0.6686746987951807,
+                    "x": 0.35362517099863205,
+                    "y": 0.8373493975903615,
                     "uniqueID": 1745162257471,
                     "ioValues": [],
                     "description": "Import Atom, let's you choose a type of file to import and use in your design.",
                     "fileName": "1775542.svg",
                     "type": "SVG",
                     "SVGwidth": 15
+                },
+                {
+                    "atomType": "Readme",
+                    "name": "README",
+                    "x": 0.24555403556771546,
+                    "y": 0.2168674698795181,
+                    "uniqueID": 1745162330437,
+                    "ioValues": [],
+                    "description": "A place to put project notes. These will appear in the GitHub readme and in the description of molecules up the chain. Markdown is supported. ",
+                    "readmeText": "Readme text here",
+                    "global": true
+                },
+                {
+                    "atomType": "Readme",
+                    "name": "README",
+                    "x": 0.31053351573187415,
+                    "y": 0.825301204819277,
+                    "uniqueID": 1745162378868,
+                    "ioValues": [],
+                    "description": "A place to put project notes. These will appear in the GitHub readme and in the description of molecules up the chain. Markdown is supported. ",
+                    "readmeText": "Import svg files to use in your project. ",
+                    "global": true
                 }
             ],
             "allConnectors": [

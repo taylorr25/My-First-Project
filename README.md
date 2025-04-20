@@ -12,5 +12,9 @@
 
 Inputs are variables which can help you and others modify your design. Possible inputs for a table would be table height, wood thickness, leg width.
 
+Readme text here
+
+Import svg files to use in your project. 
+
 
 
