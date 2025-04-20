@@ -171,13 +171,13 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Rounded-Rectangle",
-                    "x": 0.25649794801641584,
-                    "y": 0.5,
+                    "x": 0.2770177838577291,
+                    "y": 0.41566265060240964,
                     "uniqueID": 1745161601622,
                     "ioValues": [
                         {
                             "name": "Diameter",
-                            "ioValue": 45
+                            "ioValue": 4
                         },
                         {
                             "name": "Width",
@@ -214,7 +214,7 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 45
+                                    "ioValue": 4
                                 }
                             ],
                             "description": "Creates a new circle."
@@ -593,6 +593,18 @@
                     "unitsKey": "MM",
                     "fileTypeVersion": 1,
                     "compiledBom": []
+                },
+                {
+                    "atomType": "Import",
+                    "name": "Import",
+                    "x": 0.35909712722298226,
+                    "y": 0.6024096385542169,
+                    "uniqueID": 1745161829677,
+                    "ioValues": [],
+                    "description": "Import Atom, let's you choose a type of file to import and use in your design.",
+                    "fileName": "1775543.svg",
+                    "type": "SVG",
+                    "SVGwidth": 10
                 }
             ],
             "allConnectors": [
