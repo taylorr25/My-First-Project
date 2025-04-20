@@ -880,8 +880,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Leg",
-                    "x": 0.23255813953488372,
-                    "y": 0.5271084337349398,
+                    "x": 0.36114911080711354,
+                    "y": 0.35240963855421686,
                     "uniqueID": 1745162658390,
                     "ioValues": [
                         {
@@ -910,7 +910,12 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": 1745162658607,
-                            "ioValues": [],
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": 1745163061471
+                                }
+                            ],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -952,8 +957,8 @@
                         {
                             "atomType": "Rectangle",
                             "name": "Rectangle",
-                            "x": 0.2722298221614227,
-                            "y": 0.41566265060240964,
+                            "x": 0.25649794801641584,
+                            "y": 0.35542168674698793,
                             "uniqueID": 1745162837786,
                             "ioValues": [
                                 {
@@ -971,7 +976,7 @@
                             "atomType": "Extrude",
                             "name": "Extrude",
                             "x": 0.40013679890560877,
-                            "y": 0.46686746987951805,
+                            "y": 0.391566265060241,
                             "uniqueID": 1745162855636,
                             "ioValues": [
                                 {
@@ -984,6 +989,73 @@
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
+                        },
+                        {
+                            "atomType": "Move",
+                            "name": "Move",
+                            "x": 0.7147742818057455,
+                            "y": 0.6174698795180722,
+                            "uniqueID": 1745163061471,
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": 1745163067250
+                                },
+                                {
+                                    "name": "xDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "yDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "zDist",
+                                    "ioValue": 9
+                                }
+                            ],
+                            "description": "Moves a shape laterally in X, Y, Z."
+                        },
+                        {
+                            "atomType": "Rotate",
+                            "name": "Rotate",
+                            "x": 0.5581395348837209,
+                            "y": 0.40963855421686746,
+                            "uniqueID": 1745163067250,
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": 1745162855636
+                                },
+                                {
+                                    "name": "x-axis degrees",
+                                    "ioValue": 90
+                                },
+                                {
+                                    "name": "y-axis degrees",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "z-axis degrees",
+                                    "ioValue": 0
+                                }
+                            ],
+                            "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+                        },
+                        {
+                            "atomType": "Equation",
+                            "name": "x/2",
+                            "x": 0.49794801641586867,
+                            "y": 0.8132530120481928,
+                            "uniqueID": 1745163092427,
+                            "ioValues": [
+                                {
+                                    "name": "x",
+                                    "ioValue": 18
+                                }
+                            ],
+                            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                            "currentEquation": "x/2"
                         }
                     ],
                     "allConnectors": [
@@ -1002,11 +1074,46 @@
                             "ap2ID": 1745162837786
                         },
                         {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "x",
+                            "ap2Primary": false,
+                            "ap1ID": 1745162658761,
+                            "ap2ID": 1745163092427
+                        },
+                        {
                             "ap1Name": "geometry",
                             "ap2Name": "geometry",
                             "ap2Primary": true,
                             "ap1ID": 1745162837786,
                             "ap2ID": 1745162855636
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 1745162855636,
+                            "ap2ID": 1745163067250
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 1745163061471,
+                            "ap2ID": 1745162658607
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 1745163067250,
+                            "ap2ID": 1745163061471
+                        },
+                        {
+                            "ap1Name": "result",
+                            "ap2Name": "zDist",
+                            "ap2Primary": false,
+                            "ap1ID": 1745163092427,
+                            "ap2ID": 1745163061471
                         }
                     ],
                     "fileTypeVersion": 1,
@@ -1022,6 +1129,71 @@
                     "description": "A place to put project notes. These will appear in the GitHub readme and in the description of molecules up the chain. Markdown is supported. ",
                     "readmeText": "Molecules can be nested so you can make as many levels of molecules as you'd like. \nOn the top left of the screen you can see which molecule you're inside of.",
                     "global": true
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.5075239398084815,
+                    "y": 0.39759036144578314,
+                    "uniqueID": 1745163124686,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1745162658390
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "x - 10",
+                    "x": 0.24281805745554036,
+                    "y": 0.7078313253012049,
+                    "uniqueID": 1745163139021,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 30
+                        }
+                    ],
+                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                    "currentEquation": "x - 10"
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "x/2",
+                    "x": 0.3741450068399453,
+                    "y": 0.641566265060241,
+                    "uniqueID": 1745163155780,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 20
+                        }
+                    ],
+                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                    "currentEquation": "x/2"
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 0.7181942544459645,
+                    "y": 0.5030120481927711,
+                    "uniqueID": 1745163210640,
+                    "ioValues": [],
+                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
                 }
             ],
             "allConnectors": [
@@ -1038,6 +1210,34 @@
                     "ap2Primary": false,
                     "ap1ID": 1745162618417,
                     "ap2ID": 1745162658390
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "x",
+                    "ap2Primary": false,
+                    "ap1ID": 1745162618545,
+                    "ap2ID": 1745163139021
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1745162658390,
+                    "ap2ID": 1745163124686
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "x",
+                    "ap2Primary": false,
+                    "ap1ID": 1745163139021,
+                    "ap2ID": 1745163155780
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "xDist",
+                    "ap2Primary": false,
+                    "ap1ID": 1745163155780,
+                    "ap2ID": 1745163124686
                 }
             ],
             "fileTypeVersion": 1,
