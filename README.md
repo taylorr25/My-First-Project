@@ -6,11 +6,11 @@
 
 
 
- Inputs are variables which can help you and others modify your design. Possible inputs for a table would be table height, wood thickness, leg width.
-
-You can use molecules to organize the different parts of your project. For this small table project I'll create 3 molecules: 
+ You can use molecules to organize the different parts of your project. For this small table project I'll create 3 molecules: 
 - Legs
 - Top
+
+Inputs are variables which can help you and others modify your design. Possible inputs for a table would be table height, wood thickness, leg width.
 
 
 
