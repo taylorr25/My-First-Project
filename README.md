@@ -16,5 +16,9 @@ Readme text here
 
 Import svg files to use in your project. 
 
+Readme text here
+
+Connect your final assembly to the output. This will create a thumbnail and create a final atom that others will be able to see and fork on run mode. 
+
 
 
