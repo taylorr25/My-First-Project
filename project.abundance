@@ -786,8 +786,8 @@
         {
             "atomType": "Readme",
             "name": "README",
-            "x": 0.5383036935704515,
-            "y": 0.3765060240963855,
+            "x": 0.5369357045143639,
+            "y": 0.38253012048192775,
             "uniqueID": 1745162429610,
             "ioValues": [],
             "description": "A place to put project notes. These will appear in the GitHub readme and in the description of molecules up the chain. Markdown is supported. ",
@@ -802,8 +802,323 @@
             "uniqueID": 1745162466760,
             "ioValues": [],
             "description": "A place to put project notes. These will appear in the GitHub readme and in the description of molecules up the chain. Markdown is supported. ",
-            "readmeText": "Connect your final assembly to the output. This will create a thumbnail and create a final atom that others will be able to see and fork on run mode. ",
+            "readmeText": "Connect your final assembly to the output. This will create a thumbnail and create a final atom that others will be able to see and fork on run mode. \nIt will also let you see your whole design as a wireframe while you're inside other atoms.",
             "global": true
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Legs",
+            "x": 0.2701778385772914,
+            "y": 0.4759036144578313,
+            "uniqueID": 1745162618505,
+            "ioValues": [
+                {
+                    "name": "Wood thickness",
+                    "ioValue": 1
+                },
+                {
+                    "name": "table height",
+                    "ioValue": 18
+                },
+                {
+                    "name": "table width",
+                    "ioValue": 15
+                },
+                {
+                    "name": "table length",
+                    "ioValue": 30
+                }
+            ],
+            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": 1745162618702,
+                    "ioValues": [],
+                    "description": "Connect geometry here to make it available in the next level up. "
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Wood thickness",
+                    "x": 0.04,
+                    "y": 0.8614457831325302,
+                    "uniqueID": 1745162618772,
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+                },
+                {
+                    "atomType": "Input",
+                    "name": "table height",
+                    "x": 0.04,
+                    "y": 0.7078313253012049,
+                    "uniqueID": 1745162618417,
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+                },
+                {
+                    "atomType": "Input",
+                    "name": "table width",
+                    "x": 0.04,
+                    "y": 0.5542168674698795,
+                    "uniqueID": 1745162618764,
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+                },
+                {
+                    "atomType": "Input",
+                    "name": "table length",
+                    "x": 0.04,
+                    "y": 0.42168674698795183,
+                    "uniqueID": 1745162618545,
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Leg",
+                    "x": 0.23255813953488372,
+                    "y": 0.5271084337349398,
+                    "uniqueID": 1745162658390,
+                    "ioValues": [
+                        {
+                            "name": "Wood thickness",
+                            "ioValue": 1
+                        },
+                        {
+                            "name": "table height",
+                            "ioValue": 18
+                        },
+                        {
+                            "name": "table width",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "table length",
+                            "ioValue": 10
+                        }
+                    ],
+                    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+                    "topLevel": false,
+                    "allAtoms": [
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.98,
+                            "y": 0.5,
+                            "uniqueID": 1745162658607,
+                            "ioValues": [],
+                            "description": "Connect geometry here to make it available in the next level up. "
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Wood thickness",
+                            "x": 0.04,
+                            "y": 0.8614457831325302,
+                            "uniqueID": 1745162658365,
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "table height",
+                            "x": 0.04,
+                            "y": 0.7078313253012049,
+                            "uniqueID": 1745162658761,
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "table width",
+                            "x": 0.04,
+                            "y": 0.5542168674698795,
+                            "uniqueID": 1745162657945,
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "table length",
+                            "x": 0.04,
+                            "y": 0.42168674698795183,
+                            "uniqueID": 1745162658289,
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+                        },
+                        {
+                            "atomType": "Rectangle",
+                            "name": "Rectangle",
+                            "x": 0.2722298221614227,
+                            "y": 0.41566265060240964,
+                            "uniqueID": 1745162837786,
+                            "ioValues": [
+                                {
+                                    "name": "x length",
+                                    "ioValue": 3
+                                },
+                                {
+                                    "name": "y length",
+                                    "ioValue": 18
+                                }
+                            ],
+                            "description": "Creates a new rectangle."
+                        },
+                        {
+                            "atomType": "Extrude",
+                            "name": "Extrude",
+                            "x": 0.40013679890560877,
+                            "y": 0.46686746987951805,
+                            "uniqueID": 1745162855636,
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": 1745162837786
+                                },
+                                {
+                                    "name": "height",
+                                    "ioValue": 1
+                                }
+                            ],
+                            "description": "Extrudes a 2D shape. Input can be negitive. "
+                        }
+                    ],
+                    "allConnectors": [
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "height",
+                            "ap2Primary": false,
+                            "ap1ID": 1745162658365,
+                            "ap2ID": 1745162855636
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "y length",
+                            "ap2Primary": false,
+                            "ap1ID": 1745162658761,
+                            "ap2ID": 1745162837786
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 1745162837786,
+                            "ap2ID": 1745162855636
+                        }
+                    ],
+                    "fileTypeVersion": 1,
+                    "compiledBom": {}
+                },
+                {
+                    "atomType": "Readme",
+                    "name": "README",
+                    "x": 0.2222982216142271,
+                    "y": 0.27710843373493976,
+                    "uniqueID": 1745162661428,
+                    "ioValues": [],
+                    "description": "A place to put project notes. These will appear in the GitHub readme and in the description of molecules up the chain. Markdown is supported. ",
+                    "readmeText": "Molecules can be nested so you can make as many levels of molecules as you'd like. \nOn the top left of the screen you can see which molecule you're inside of.",
+                    "global": true
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Wood thickness",
+                    "ap2Primary": false,
+                    "ap1ID": 1745162618772,
+                    "ap2ID": 1745162658390
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "table height",
+                    "ap2Primary": false,
+                    "ap1ID": 1745162618417,
+                    "ap2ID": 1745162658390
+                }
+            ],
+            "fileTypeVersion": 1,
+            "compiledBom": {}
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 0.2585499316005472,
+            "y": 0.7891566265060241,
+            "uniqueID": 1745162799100,
+            "ioValues": [
+                {
+                    "name": "Wood thickness",
+                    "ioValue": 1
+                },
+                {
+                    "name": "table height",
+                    "ioValue": 18
+                },
+                {
+                    "name": "table width",
+                    "ioValue": 15
+                },
+                {
+                    "name": "table length",
+                    "ioValue": 30
+                }
+            ],
+            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": 1745162798863,
+                    "ioValues": [],
+                    "description": "Connect geometry here to make it available in the next level up. "
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Wood thickness",
+                    "x": 0.04,
+                    "y": 0.8614457831325302,
+                    "uniqueID": 1745162799381,
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+                },
+                {
+                    "atomType": "Input",
+                    "name": "table height",
+                    "x": 0.04,
+                    "y": 0.7078313253012049,
+                    "uniqueID": 1745162799360,
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+                },
+                {
+                    "atomType": "Input",
+                    "name": "table width",
+                    "x": 0.04,
+                    "y": 0.5542168674698795,
+                    "uniqueID": 1745162799091,
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+                },
+                {
+                    "atomType": "Input",
+                    "name": "table length",
+                    "x": 0.04,
+                    "y": 0.42168674698795183,
+                    "uniqueID": 1745162799519,
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1,
+            "compiledBom": {}
         }
     ],
     "allConnectors": [
@@ -816,10 +1131,38 @@
         },
         {
             "ap1Name": "number or geometry",
+            "ap2Name": "Wood thickness",
+            "ap2Primary": false,
+            "ap1ID": 1745161265821,
+            "ap2ID": 1745162618505
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Wood thickness",
+            "ap2Primary": false,
+            "ap1ID": 1745161265821,
+            "ap2ID": 1745162799100
+        },
+        {
+            "ap1Name": "number or geometry",
             "ap2Name": "table height",
             "ap2Primary": false,
             "ap1ID": 1745161414645,
             "ap2ID": 1745161481329
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "table height",
+            "ap2Primary": false,
+            "ap1ID": 1745161414645,
+            "ap2ID": 1745162618505
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "table height",
+            "ap2Primary": false,
+            "ap1ID": 1745161414645,
+            "ap2ID": 1745162799100
         },
         {
             "ap1Name": "number or geometry",
@@ -830,10 +1173,38 @@
         },
         {
             "ap1Name": "number or geometry",
+            "ap2Name": "table width",
+            "ap2Primary": false,
+            "ap1ID": 1745161425984,
+            "ap2ID": 1745162618505
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "table width",
+            "ap2Primary": false,
+            "ap1ID": 1745161425984,
+            "ap2ID": 1745162799100
+        },
+        {
+            "ap1Name": "number or geometry",
             "ap2Name": "table length",
             "ap2Primary": false,
             "ap1ID": 1745161438472,
             "ap2ID": 1745161481329
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "table length",
+            "ap2Primary": false,
+            "ap1ID": 1745161438472,
+            "ap2ID": 1745162618505
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "table length",
+            "ap2Primary": false,
+            "ap1ID": 1745161438472,
+            "ap2ID": 1745162799100
         },
         {
             "ap1Name": "Geometry",

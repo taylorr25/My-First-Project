@@ -16,9 +16,13 @@ Readme text here
 
 Import svg files to use in your project. 
 
+Molecules can be nested so you can make as many levels of molecules as you'd like. 
+On the top left of the screen you can see which molecule you're inside of.
+
 Readme text here
 
 Connect your final assembly to the output. This will create a thumbnail and create a final atom that others will be able to see and fork on run mode. 
+It will also let you see your whole design as a wireframe while you're inside other atoms.
 
 
 
