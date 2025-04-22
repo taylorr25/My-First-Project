@@ -7,7 +7,7 @@
     "ioValues": [
         {
             "name": "Wood thickness",
-            "ioValue": 1
+            "ioValue": 0.7
         },
         {
             "name": "table height",
@@ -110,7 +110,7 @@
             "ioValues": [
                 {
                     "name": "Wood thickness",
-                    "ioValue": 1
+                    "ioValue": 0.7
                 },
                 {
                     "name": "table height",
@@ -635,7 +635,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 1
+                            "ioValue": 0.7
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -809,7 +809,7 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.7735978112175103,
+            "x": 0.7606019151846785,
             "y": 0.5240963855421688,
             "uniqueID": 1745162179008,
             "ioValues": [
@@ -853,13 +853,13 @@
         {
             "atomType": "Molecule",
             "name": "Legs",
-            "x": 0.3365253077975376,
-            "y": 0.4879518072289156,
+            "x": 0.36662106703146374,
+            "y": 0.5150602409638555,
             "uniqueID": 1745162618505,
             "ioValues": [
                 {
                     "name": "Wood thickness",
-                    "ioValue": 1
+                    "ioValue": 0.7
                 },
                 {
                     "name": "table height",
@@ -936,7 +936,7 @@
                     "ioValues": [
                         {
                             "name": "Wood thickness",
-                            "ioValue": 1
+                            "ioValue": 0.7
                         },
                         {
                             "name": "table height",
@@ -1035,7 +1035,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 1
+                                    "ioValue": 0.7
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -1183,8 +1183,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.47332421340629277,
-                    "y": 0.4849397590361446,
+                    "x": 0.5588235294117647,
+                    "y": 0.5,
                     "uniqueID": 1745163124686,
                     "ioValues": [
                         {
@@ -1224,8 +1224,8 @@
                 {
                     "atomType": "Equation",
                     "name": "-x/2",
-                    "x": 0.35772913816689467,
-                    "y": 0.45180722891566266,
+                    "x": 0.42339261285909713,
+                    "y": 0.4789156626506024,
                     "uniqueID": 1745163155780,
                     "ioValues": [
                         {
@@ -1239,8 +1239,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.5526675786593707,
-                    "y": 0.28012048192771083,
+                    "x": 0.6607387140902873,
+                    "y": 0.18373493975903615,
                     "uniqueID": 1745163210640,
                     "ioValues": [
                         {
@@ -1257,8 +1257,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.6682626538987688,
-                    "y": 0.5873493975903614,
+                    "x": 0.79890560875513,
+                    "y": 0.2891566265060241,
                     "uniqueID": 1745163322937,
                     "ioValues": [
                         {
@@ -1271,7 +1271,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 6.5
+                            "ioValue": 6.85
                         },
                         {
                             "name": "zDist",
@@ -1282,18 +1282,22 @@
                 },
                 {
                     "atomType": "Equation",
-                    "name": "x /2",
-                    "x": 0.4459644322845417,
-                    "y": 0.7409638554216867,
+                    "name": "x /2 + y/2",
+                    "x": 0.4801641586867305,
+                    "y": 0.7018072289156627,
                     "uniqueID": 1745163343021,
                     "ioValues": [
                         {
                             "name": "x",
                             "ioValue": 13
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 0.7
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
-                    "currentEquation": "x /2"
+                    "currentEquation": "x /2 + y/2"
                 },
                 {
                     "atomType": "Equation",
@@ -1313,8 +1317,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.7729138166894665,
-                    "y": 0.5331325301204819,
+                    "x": 0.8905608755129959,
+                    "y": 0.47289156626506024,
                     "uniqueID": 1745163375568,
                     "ioValues": [
                         {
@@ -1346,8 +1350,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.47058823529411764,
-                    "y": 0.25,
+                    "x": 0.5540355677154583,
+                    "y": 0.20783132530120482,
                     "uniqueID": 1745359415373,
                     "ioValues": [
                         {
@@ -1371,24 +1375,28 @@
                 },
                 {
                     "atomType": "Equation",
-                    "name": "-x /2",
-                    "x": 0.4904240766073872,
-                    "y": 0.8975903614457832,
+                    "name": "-x /2 + y/2",
+                    "x": 0.539671682626539,
+                    "y": 0.9126506024096386,
                     "uniqueID": 1745359540396,
                     "ioValues": [
                         {
                             "name": "x",
                             "ioValue": 13
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 0.7
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
-                    "currentEquation": "-x /2"
+                    "currentEquation": "-x /2 + y/2"
                 },
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.6326949384404924,
-                    "y": 0.8343373493975904,
+                    "x": 0.8036935704514363,
+                    "y": 0.7259036144578314,
                     "uniqueID": 1745359549690,
                     "ioValues": [
                         {
@@ -1401,7 +1409,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -6.5
+                            "ioValue": -6.15
                         },
                         {
                             "name": "zDist",
@@ -1418,6 +1426,20 @@
                     "ap2Primary": false,
                     "ap1ID": 1745162618772,
                     "ap2ID": 1745162658390
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "y",
+                    "ap2Primary": false,
+                    "ap1ID": 1745162618772,
+                    "ap2ID": 1745163343021
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "y",
+                    "ap2Primary": false,
+                    "ap1ID": 1745162618772,
+                    "ap2ID": 1745359540396
                 },
                 {
                     "ap1Name": "number or geometry",
@@ -1566,13 +1588,13 @@
         {
             "atomType": "Molecule",
             "name": "Apron",
-            "x": 0.4322845417236662,
-            "y": 0.8012048192771084,
+            "x": 0.4281805745554036,
+            "y": 0.786144578313253,
             "uniqueID": 1745162799100,
             "ioValues": [
                 {
                     "name": "Wood thickness",
-                    "ioValue": 1
+                    "ioValue": 0.7
                 },
                 {
                     "name": "table height",
@@ -1643,8 +1665,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 0.1744186046511628,
-                    "y": 0.29819277108433734,
+                    "x": 0.18673050615595077,
+                    "y": 0.2680722891566265,
                     "uniqueID": 1745359640458,
                     "ioValues": [
                         {
@@ -1653,7 +1675,7 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 15
+                            "ioValue": 14
                         }
                     ],
                     "description": "Creates a new rectangle."
@@ -1661,8 +1683,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.25820568927789933,
-                    "y": 0.4246987951807229,
+                    "x": 0.26744186046511625,
+                    "y": 0.3253012048192771,
                     "uniqueID": 1745359644079,
                     "ioValues": [
                         {
@@ -1671,7 +1693,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 1
+                            "ioValue": 0.7
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -1889,7 +1911,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 1
+                            "ioValue": 0.7
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -2554,6 +2576,21 @@
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "x - 1.25"
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "x - 1",
+                    "x": 0.17236662106703146,
+                    "y": 0.4789156626506024,
+                    "uniqueID": 1745362160878,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 15
+                        }
+                    ],
+                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                    "currentEquation": "x - 1"
                 }
             ],
             "allConnectors": [
@@ -2580,10 +2617,10 @@
                 },
                 {
                     "ap1Name": "number or geometry",
-                    "ap2Name": "y length",
+                    "ap2Name": "x",
                     "ap2Primary": false,
                     "ap1ID": 1745162799091,
-                    "ap2ID": 1745359640458
+                    "ap2ID": 1745362160878
                 },
                 {
                     "ap1Name": "number or geometry",
@@ -2738,6 +2775,13 @@
                     "ap2Primary": false,
                     "ap1ID": 1745361226731,
                     "ap2ID": 1745359775761
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "y length",
+                    "ap2Primary": false,
+                    "ap1ID": 1745362160878,
+                    "ap2ID": 1745359640458
                 }
             ],
             "fileTypeVersion": 1,
