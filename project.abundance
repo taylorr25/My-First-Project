@@ -104,8 +104,8 @@
         {
             "atomType": "Molecule",
             "name": "Top",
-            "x": 0.2918968692449355,
-            "y": 0.29819277108433734,
+            "x": 0.4637482900136799,
+            "y": 0.21084337349397592,
             "uniqueID": 1745161481329,
             "ioValues": [
                 {
@@ -809,8 +809,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.6629834254143646,
-            "y": 0.5120481927710844,
+            "x": 0.7735978112175103,
+            "y": 0.5240963855421688,
             "uniqueID": 1745162179008,
             "ioValues": [
                 {
@@ -831,8 +831,8 @@
         {
             "atomType": "Readme",
             "name": "README",
-            "x": 0.5499316005471956,
-            "y": 0.35542168674698793,
+            "x": 0.7243502051983584,
+            "y": 0.391566265060241,
             "uniqueID": 1745162429610,
             "ioValues": [],
             "description": "A place to put project notes. These will appear in the GitHub readme and in the description of molecules up the chain. Markdown is supported. ",
@@ -853,8 +853,8 @@
         {
             "atomType": "Molecule",
             "name": "Legs",
-            "x": 0.2551299589603283,
-            "y": 0.5271084337349398,
+            "x": 0.3372093023255814,
+            "y": 0.5210843373493976,
             "uniqueID": 1745162618505,
             "ioValues": [
                 {
@@ -1566,8 +1566,8 @@
         {
             "atomType": "Molecule",
             "name": "Apron",
-            "x": 0.3360957642725598,
-            "y": 0.8042168674698795,
+            "x": 0.4322845417236662,
+            "y": 0.8012048192771084,
             "uniqueID": 1745162799100,
             "ioValues": [
                 {
