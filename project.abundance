@@ -104,8 +104,8 @@
         {
             "atomType": "Molecule",
             "name": "Top",
-            "x": 0.46238030095759236,
-            "y": 0.22590361445783133,
+            "x": 0.31506849315068497,
+            "y": 0.13225058004640372,
             "uniqueID": 1745161481329,
             "ioValues": [
                 {
@@ -809,8 +809,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.7606019151846785,
-            "y": 0.5240963855421688,
+            "x": 0.4883561643835616,
+            "y": 0.4802784222737819,
             "uniqueID": 1745162179008,
             "ioValues": [
                 {
@@ -853,8 +853,8 @@
         {
             "atomType": "Molecule",
             "name": "Legs",
-            "x": 0.36662106703146374,
-            "y": 0.5150602409638555,
+            "x": 0.28493150684931506,
+            "y": 0.382830626450116,
             "uniqueID": 1745162618505,
             "ioValues": [
                 {
@@ -1588,8 +1588,8 @@
         {
             "atomType": "Molecule",
             "name": "Apron",
-            "x": 0.4281805745554036,
-            "y": 0.786144578313253,
+            "x": 0.3082191780821918,
+            "y": 0.7470997679814385,
             "uniqueID": 1745162799100,
             "ioValues": [
                 {
@@ -2786,6 +2786,58 @@
             ],
             "fileTypeVersion": 1,
             "compiledBom": []
+        },
+        {
+            "atomType": "Rotate",
+            "name": "Rotate",
+            "x": 0.6513698630136986,
+            "y": 0.6705336426914154,
+            "uniqueID": 1746411158069,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1745162179008
+                },
+                {
+                    "name": "x-axis degrees",
+                    "ioValue": 180
+                },
+                {
+                    "name": "y-axis degrees",
+                    "ioValue": 0
+                },
+                {
+                    "name": "z-axis degrees",
+                    "ioValue": 0
+                }
+            ],
+            "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.7753424657534246,
+            "y": 0.7540603248259861,
+            "uniqueID": 1746411334005,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1746411158069
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 19
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
         }
     ],
     "allConnectors": [
@@ -2888,6 +2940,13 @@
             "ap2ID": 1743640240915
         },
         {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1745162179008,
+            "ap2ID": 1746411158069
+        },
+        {
             "ap1Name": "Geometry",
             "ap2Name": "Shape 2",
             "ap2Primary": false,
@@ -2900,6 +2959,13 @@
             "ap2Primary": false,
             "ap1ID": 1745162799100,
             "ap2ID": 1745162179008
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1746411158069,
+            "ap2ID": 1746411334005
         }
     ],
     "unitsKey": "Inches",
